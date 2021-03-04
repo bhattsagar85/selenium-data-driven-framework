@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Data Driven Demo">
+    <listeners>
+        <listener class-name="com.demo.base.Listener"></listener>
+    </listeners>
+    <test name="Customer Login Test">
+        <classes>
+            <class name="com.demo.test.LoginTest"/>
+        </classes>
+    </test>
+    <test name="Bank Manager Login Test">
+        <classes>
+            <class name="com.demo.test.AddCustomerTest"></class>
+        </classes>
+    </test>
+
+</suite>

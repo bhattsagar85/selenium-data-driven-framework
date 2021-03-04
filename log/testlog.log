@@ -1,0 +1,14 @@
+2021-03-04 18:42:21,214 - devpinoyLogger -INFO - navigating to the homepage
+2021-03-04 18:42:21,269 - devpinoyLogger -INFO - Clicking on: btn_customer_login_CSS
+2021-03-04 18:42:21,409 - devpinoyLogger -INFO - Harry Potter is selected from: dropdown_name_ID
+2021-03-04 18:42:21,457 - devpinoyLogger -INFO - Clicking on: btn_login_CSS
+2021-03-04 18:42:21,605 - devpinoyLogger -INFO - navigating to the homepage
+2021-03-04 18:42:21,650 - devpinoyLogger -INFO - Clicking on: btn_bankmanager_login_CSS
+2021-03-04 18:42:22,158 - devpinoyLogger -INFO - navigating to the homepage
+2021-03-04 18:42:22,240 - devpinoyLogger -INFO - Clicking on: btn_bankmanager_login_CSS
+2021-03-04 18:42:22,293 - devpinoyLogger -INFO - Clicking on: btn_add_customer_CSS
+2021-03-04 18:42:22,467 - devpinoyLogger -INFO - Typing: ABCD in textbox:txtbx_firstname_CSS
+2021-03-04 18:42:22,588 - devpinoyLogger -INFO - Typing: EFGH in textbox:txtbx_lastname_CSS
+2021-03-04 18:42:22,645 - devpinoyLogger -INFO - Typing: IJKL in textbox:txtbx_postcode_CSS
+2021-03-04 18:42:22,712 - devpinoyLogger -INFO - Clicking on: btn_addcustomer_CSS
+2021-03-04 18:42:22,867 - devpinoyLogger -INFO - navigating to the homepage

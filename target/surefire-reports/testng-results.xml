@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-04T18:07:01 IST" name="Data Driven Demo" finished-at="2021-03-04T18:07:02 IST" duration-ms="1046">
+    <groups>
+    </groups>
+    <test started-at="2021-03-04T18:07:01 IST" name="Customer Login Test" finished-at="2021-03-04T18:07:02 IST" duration-ms="1015">
+      <class name="com.demo.test.LoginTest">
+        <test-method signature="customerLogin()[pri:1, instance:com.demo.test.LoginTest@14b030a0]" started-at="2021-03-04T18:07:01 IST" name="customerLogin" finished-at="2021-03-04T18:07:01 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerLogin -->
+        <test-method signature="bankManagerLogin()[pri:2, instance:com.demo.test.LoginTest@14b030a0]" started-at="2021-03-04T18:07:01 IST" name="bankManagerLogin" finished-at="2021-03-04T18:07:01 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankManagerLogin -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.demo.test.LoginTest@14b030a0]" started-at="2021-03-04T18:07:01 IST" name="endReport" finished-at="2021-03-04T18:07:02 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.demo.test.LoginTest -->
+    </test> <!-- Customer Login Test -->
+    <test started-at="2021-03-04T18:07:02 IST" name="Bank Manager Login Test" finished-at="2021-03-04T18:07:02 IST" duration-ms="19">
+      <class name="com.demo.test.AddCustomerTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demo.test.AddCustomerTest@5b43fbf6]" started-at="2021-03-04T18:06:56 IST" name="setup" finished-at="2021-03-04T18:07:01 IST" duration-ms="4850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addCustomerTest(java.util.HashMap)[pri:0, instance:com.demo.test.AddCustomerTest@5b43fbf6]" started-at="2021-03-04T18:07:02 IST" name="addCustomerTest" data-provider="dp" finished-at="2021-03-04T18:07:02 IST" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{postcode=IJKL, firstname=ABCD, lastname=EFGH}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test as the runmode is set as NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test as the runmode is set as NO
+at com.demo.base.Listener.onTestStart(Listener.java:30)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:73)
+at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:570)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.demo.test.AddCustomerTest@5b43fbf6]" started-at="2021-03-04T18:07:02 IST" name="endReport" finished-at="2021-03-04T18:07:02 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.test.AddCustomerTest@5b43fbf6]" started-at="2021-03-04T18:07:02 IST" name="tearDown" finished-at="2021-03-04T18:07:02 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.test.AddCustomerTest -->
+    </test> <!-- Bank Manager Login Test -->
+  </suite> <!-- Data Driven Demo -->
+</testng-results>

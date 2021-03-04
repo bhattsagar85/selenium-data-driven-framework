@@ -1,0 +1,38 @@
+{
+  "testData": [
+    {
+      "testName": "ProductOperationTest",
+      "data": [
+        {
+          "runmode": "y",
+          "browser": "chrome",
+          "productName": "iPhone11",
+          "operation": "add"
+        },
+        {
+          "runmode": "y",
+          "browser": "chrome",
+          "productName": "iPhone11",
+          "operation": "remove"
+        }
+      ]
+    },
+    {
+      "testName": "CreatePost",
+      "data": [
+        {
+          "runmode": "y",
+          "browser": "chrome",
+          "title": "This is a test title - 1",
+          "description": "This is a test description - 1"
+        },
+        {
+          "runmode": "y",
+          "browser": "chrome",
+          "title": "This is a test title - 2",
+          "description": "This is a test description - 1"
+        }
+      ]
+    }
+  ]
+}
